@@ -35,7 +35,7 @@ namespace psgoWurple
                     bSize--;
                     sw.WriteLine("\\setcounter{gomove}{0}");
                     sw.WriteLine("\\begin{psgoboard}["+bSize+"]");
-                    Console.WriteLine("Read line length {0} bSize {1}", tmp.Length, bSize);
+//                    Console.WriteLine("Read line length {0} bSize {1}", tmp.Length, bSize);
                     int row = 0;
                     while (sr.EndOfStream == false)
                     {

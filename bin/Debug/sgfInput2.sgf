@@ -1,0 +1,9 @@
+(;GM[1]FF[4]AP[Drago:4.22.03]SZ[19]CA[UTF-8];B[pd];W[jj]
+	(;B[dp]C[DIAGRAM_START DIAGRAM_END])
+	(;B[pp];W[nq];B[qn];W[jp];B[pr]C[DIAGRAM_START This consists of 5 moves DIAGRAM_END])
+	(;B[ba];W[ca];B[bb];W[da];B[ab]
+		(;W[cb];B[aa];W[bc];B[ac];W[ad]C[DIAGRAM_START A silly capture DIAGRAM_END])
+		(;W[fd];B[de]C[DIAGRAM_START an secondary node DIAGRAM_END])
+	)
+)
+
