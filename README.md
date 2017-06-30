@@ -12,12 +12,12 @@ SL offers a rather limited facility for diagram creation. If your Go diagramming
 
 ### SGF
 Smart Game Format(SGF) is now the standard file format for Go. The workflow we have here is very different to what you might use with a more standard diagramming tool such as GoWrite. We just write pseudocode down in the comments to indicate what should be produced, if anything, from a node. In some ways, I suppose this is almost a nod to the abandoned Ishi file format. Your pseudocode keywords are
-* DIAGRAM_START
+* DIAGRAM_START ,
+* FULL_BOARD *N* ,
+* PART_BOARD *BL TR* , 
+* START_MOVE_NBR *N* ,
+* PREV_MOVE_NBR *N* ,
 * DIAGRAM_END
-* FULL_BOARD *N*
-* PART_BOARD *BL TR* 
-* START_MOVE_NBR *N*
-* PREV_MOVE_NBR *N*
 Disgacefully, we do not document what any of these keywords mean, nor identify the parameters they take. 
 
 Depending on what sgf editor you actually use, the ease of use of this crufty program will vary like a political certainty.
