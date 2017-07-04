@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ascii.cs" />
+    <Compile Include="DiagramBasic.cs" />
+    <Compile Include="MarkUp.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
